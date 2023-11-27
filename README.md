@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/prajotsurey/fm-7-loopstudios](https://github.com/prajotsurey/fm-7-loopstudios)
+- Live Site URL: [https://fm-7-loopstudios.vercel.app/](https://fm-7-loopstudios.vercel.app/)
 
 ## My process
 

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles.css" >
+    <title>Frontend Mentor | Loopstudios landing page</title>
+
+
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container header-container">
+        <img src="./images/logo.svg" alt="Loopstudios" class="header-logo" >
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#" class="underlined">About</a></li>
+            <li><a href="#" class="underlined">Careers</a></li>
+            <li><a href="#" class="underlined">Events</a></li>
+            <li><a href="#" class="underlined">Products</a></li>
+            <li><a href="#" class="underlined">Support</a></li>
+          </ul>
+        </nav>
+        <button class="icon-button" id="open-sidebar-trigger" aria-controls="sidebar" aria-label="Open Menu">
+          <img src="./images/icon-hamburger.svg" alt="" class="" >
+        </button>
+        <aside class="sidebar" id="sidebar">
+          <div class="container sidebar-container">
+            <div class="sidebar-header header-container">
+              <img
+                src="./images/logo.svg"
+                alt="Loopstudios"
+                class="header-logo"
+              >
+              <button class="icon-button" id="close-sidebar-trigger" aria-controls="sidebar" aria-label="Close Menu">
+                <img src="./images/icon-close.svg" alt="" class="" >
+              </button>
+            </div>
+            <nav class="sidebar-nav">
+              <ul class="sidebar-links">
+                <li><a href="#" class="sidebar-link underlined">ABOUT</a></li>
+                <li><a href="#" class="sidebar-link underlined">CAREERS</a></li>
+                <li><a href="#" class="sidebar-link underlined">EVENTS</a></li>
+                <li>
+                  <a href="#" class="sidebar-link underlined">PRODUCTS</a>
+                </li>
+                <li><a href="#" class="sidebar-link underlined">SUPPORT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </aside>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-section-container">
+          <h1 class="hero-text">IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+        </div>
+      </section>
+      <section class="container y-gap second-section">
+        <picture class="second-section-hero-picture">
+          <source
+            srcset="./images/desktop/image-interactive.jpg"
+            media="(min-width:924px)"
+          >
+          <img
+            src="./images/mobile/image-interactive.jpg"
+            alt=""
+            class="second-section-hero-image"
+          >
+        </picture>
+        <div class="sec1-text">
+          <h2 class="section-heading second-sec-heading">
+            THE LEADER IN INTERACTIVE VR
+          </h2>
+          <span class="about">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </span>
+        </div>
+      </section>
+      <section class="container y-gap third-section">
+        <h2 class="section-heading third-section-heading">OUR CREATIONS</h2>
+        <div class="creation-list">
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">
+              DEEP EARTH
+            </h3></a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">NIGHT ARCADE</h3>  </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">SOCCER TEAM VR</h3>  </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">THE GRID</h3>  </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">FROM UP ABOVE VR</h3>  </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">POCKET BOREALIS</h3> </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">THE CURIOSITY</h3>  </a>
+          </article>
+          <article class="creation">
+            <a href="#"><h3 class="creation-heading">MAKE IT FISHEYE </h3> </a>
+          </article>
+        </div>
+        <a class="see-all-link" href="#">SEE ALL</a>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-wrapper">
+        <img src="./images/logo.svg" alt="Loopstudios" class="footer-logo" >
+        <ul class="footer-links">
+          <li>
+            <a class="underlined" href="#"> About </a>
+          </li>
+          <li>
+            <a class="underlined" href="#"> Careers </a>
+          </li>
+          <li>
+            <a class="underlined" href="#"> Events </a>
+          </li>
+          <li>
+            <a class="underlined" href="#"> Products </a>
+          </li>
+          <li>
+            <a class="underlined" href="#"> Support </a>
+          </li>
+        </ul>
+        <ul class="footer-socials">
+          <li>
+            <a href="#" class="underlined">
+              <img src="./images/icon-facebook.svg" alt='facebook' class="footer-social" >
+            </a>
+          </li>
+          <li>
+            <a href="#" class="underlined">
+              <img src="./images/icon-twitter.svg" alt="twitter" class="footer-social" >
+            </a>
+          </li>
+          <li>
+            <a href="#" class="underlined">
+              <img src="./images/icon-pinterest.svg" alt='pinterest' class="footer-social" >
+            </a>
+          </li>
+          <li>
+            <a href="#" class="underlined">
+              <img src="./images/icon-instagram.svg" alt="instagram" class="footer-social" >
+            </a>
+          </li>
+        </ul>
+        <span class="copyright">
+          © 2021 Loopstudios. All rights reserved.
+        </span>
+      </div>
+    </footer>
+    <div class="attribution">
+      <span>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.
+      </span>
+      <span>
+        Coded by
+        <a href="https://github.com/prajotsurey" target="_blank">Prajot Surey</a
+        >.
+      </span>
+    </div>
+    <script >
+      const openTrigger = document.getElementById("open-sidebar-trigger");
+      const closeTrigger = document.getElementById("close-sidebar-trigger");
+      const sidebar = document.getElementById("sidebar");
+      const body = document.getElementsByTagName("body")[0];
+      openTrigger.addEventListener("click", () => {
+        sidebar.classList.add("show");
+        body.classList.add("disable-scroll");
+      });
+  
+      closeTrigger.addEventListener("click", () => {
+        sidebar.classList.remove("show");
+        body.classList.remove("disable-scroll");
+      });
+  
+      window.addEventListener("resize", () => {
+        if (window.innerWidth >= 924) {
+          sidebar.classList.remove("show");
+          sidebar.classList.remove("disable-scroll");
+        }
+      });
+    </script>
+  </body>
+</html>
